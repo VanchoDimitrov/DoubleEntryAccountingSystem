@@ -1,0 +1,12 @@
+C:\Users\vanch\source\repos\DoubleEntryAccountingSystem\Acciunting.Entities\Acciunting.Entities\bin\Debug\net6.0\Acciunting.Entities.deps.json
+C:\Users\vanch\source\repos\DoubleEntryAccountingSystem\Acciunting.Entities\Acciunting.Entities\bin\Debug\net6.0\Acciunting.Entities.dll
+C:\Users\vanch\source\repos\DoubleEntryAccountingSystem\Acciunting.Entities\Acciunting.Entities\bin\Debug\net6.0\Acciunting.Entities.pdb
+C:\Users\vanch\source\repos\DoubleEntryAccountingSystem\Acciunting.Entities\Acciunting.Entities\obj\Debug\net6.0\Acciunting.Entities.csproj.AssemblyReference.cache
+C:\Users\vanch\source\repos\DoubleEntryAccountingSystem\Acciunting.Entities\Acciunting.Entities\obj\Debug\net6.0\Acciunting.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanch\source\repos\DoubleEntryAccountingSystem\Acciunting.Entities\Acciunting.Entities\obj\Debug\net6.0\Acciunting.Entities.AssemblyInfoInputs.cache
+C:\Users\vanch\source\repos\DoubleEntryAccountingSystem\Acciunting.Entities\Acciunting.Entities\obj\Debug\net6.0\Acciunting.Entities.AssemblyInfo.cs
+C:\Users\vanch\source\repos\DoubleEntryAccountingSystem\Acciunting.Entities\Acciunting.Entities\obj\Debug\net6.0\Acciunting.Entities.csproj.CoreCompileInputs.cache
+C:\Users\vanch\source\repos\DoubleEntryAccountingSystem\Acciunting.Entities\Acciunting.Entities\obj\Debug\net6.0\Acciunting.Entities.dll
+C:\Users\vanch\source\repos\DoubleEntryAccountingSystem\Acciunting.Entities\Acciunting.Entities\obj\Debug\net6.0\refint\Acciunting.Entities.dll
+C:\Users\vanch\source\repos\DoubleEntryAccountingSystem\Acciunting.Entities\Acciunting.Entities\obj\Debug\net6.0\Acciunting.Entities.pdb
+C:\Users\vanch\source\repos\DoubleEntryAccountingSystem\Acciunting.Entities\Acciunting.Entities\obj\Debug\net6.0\ref\Acciunting.Entities.dll

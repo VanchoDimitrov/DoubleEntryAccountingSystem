@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Accounting.Services\\Accounting.Services\\Accounting.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Acciunting.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Acciunting.Entities.csproj",
+        "projectName": "Acciunting.Entities",
+        "projectPath": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Acciunting.Entities.csproj",
+        "packagesPath": "C:\\Users\\vanch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vanch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Accounting.Services\\Accounting.Services\\Accounting.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Accounting.Services\\Accounting.Services\\Accounting.Services.csproj",
+        "projectName": "Accounting.Services",
+        "projectPath": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Accounting.Services\\Accounting.Services\\Accounting.Services.csproj",
+        "packagesPath": "C:\\Users\\vanch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Accounting.Services\\Accounting.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vanch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Acciunting.Entities.csproj": {
+                "projectPath": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Acciunting.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
