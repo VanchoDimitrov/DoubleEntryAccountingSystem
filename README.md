@@ -5,7 +5,7 @@ This is a double-entry accounting system example for learning purposes. <br>
 Accounting principals follow the following formula <br>
  # Assets = Liabilities + Equity
  
- # Sample Data Entry Result - when you run the Console Client
+ # Sample Data Entry Result - when the Console Client is started
 
 
 Cash Account Balance: 1300 <br>
