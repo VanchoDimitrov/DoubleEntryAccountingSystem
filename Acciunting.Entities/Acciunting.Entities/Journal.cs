@@ -17,6 +17,9 @@ namespace Acciunting.Entities
 
         public void RecordTransaction(Account debitAccount, Account creditAccount, decimal amount, string description)
         {
+            if (description == null || description == string.Empty)
+                throw new ArgumentException("The description is empty.");
+
             if (debitAccount == creditAccount)
                 throw new ArgumentException("The account is the same.");
 
