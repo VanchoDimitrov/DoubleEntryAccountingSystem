@@ -1,4 +1,4 @@
-*Double-Entry Accounting System
+# Double-Entry Accounting System
 
 This is a double-entry accounting system example for learning purposes. <br>
 
