@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Acciunting.Entities.contracts;
 
 namespace Acciunting.Entities
 {
-    public class Transaction
+    public class Transaction : ITransaction
     {
         public Account DebitAccount { get; private set; }
         public Account CreditAccount { get; private set; }

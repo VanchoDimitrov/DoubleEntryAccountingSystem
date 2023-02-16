@@ -1,8 +1,9 @@
 ﻿using System.Xml.Linq;
+using Acciunting.Entities.contracts;
 
 namespace Acciunting.Entities
 {
-    public class Account
+    public class Account : IAccount
     {
         public string Name { get; set; }
         public decimal Balance { get; set; }

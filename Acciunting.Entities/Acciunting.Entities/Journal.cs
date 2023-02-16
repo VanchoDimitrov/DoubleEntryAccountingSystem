@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Acciunting.Entities.contracts;
 
 namespace Acciunting.Entities
 {
-    public class Journal
+    public class Journal : IJournal
     {
         public List<Transaction> Transactions { get; private set; }
 
