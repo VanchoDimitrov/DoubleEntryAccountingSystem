@@ -1,11 +1,13 @@
 using Acciunting.Entities;
+using Acciunting.Entities.contracts;
+using Telerik.JustMock;
 
 namespace Accounting.Test
 {
     public class AccountTests
     {
         [Fact]
-        public void RecordTransaction_NegativeAmmount()
+        public void RecordTransaction_NegativeAmount()
         {
             // Arrange
             var debitAccount = new Account("Debit Account", 1000);
@@ -17,11 +19,13 @@ namespace Accounting.Test
 
             // Assert
             Assert.Equal(-500, creditAccount.Balance); // -500
+            Assert.Single(journal.Transactions);
             Assert.Equal(1, journal.Transactions.Count);
         }
 
+
         [Fact]
-        public void RecordTransaction_PositiveAmmount()
+        public void RecordTransaction_PositiveAmount()
         {
             // Arrange
             var debitAccount = new Account("Debit Account", 1000);
@@ -95,6 +99,24 @@ namespace Accounting.Test
             // Act and Assert
             Assert.Throws<ArgumentException>(() => journal.RecordTransaction(debitAccount, creditAccount, 500, null));
             Assert.Throws<ArgumentException>(() => journal.RecordTransaction(debitAccount, creditAccount, 500, string.Empty));
+        }
+
+        [Fact]
+        public void Test_RecordTransaction_LongDescription()
+        {
+            // Arrange
+            var debitAccount = new Account("Debit Account", 1000);
+            var creditAccount = new Account("Credit Account", 0);
+            var journal = new Journal();
+            var longDescription = new string('x', 1000);
+
+            // Act
+            journal.RecordTransaction(debitAccount, creditAccount, 500, longDescription);
+
+            // Assert
+            Assert.Equal(-500, creditAccount.Balance);
+            Assert.Equal(1, journal.Transactions.Count);
+            Assert.Equal(longDescription, journal.Transactions[0].Description);
         }
 
 

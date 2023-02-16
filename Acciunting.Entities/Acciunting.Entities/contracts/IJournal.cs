@@ -4,6 +4,6 @@
     {
         List<Transaction> Transactions { get; }
 
-        void RecordTransaction(Account debitAccount, Account creditAccount, decimal amount, string description);
+        void RecordTransaction(IAccount debitAccount, IAccount creditAccount, decimal amount, string description);
     }
 }

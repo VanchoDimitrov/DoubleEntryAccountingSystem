@@ -307,14 +307,14 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "Acciunting.Entities/1.0.0": {
+      "Accounting.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Acciunting.Entities.dll": {}
+          "bin/placeholder/Accounting.Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Acciunting.Entities.dll": {}
+          "bin/placeholder/Accounting.Entities.dll": {}
         }
       }
     }
@@ -822,15 +822,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Acciunting.Entities/1.0.0": {
+    "Accounting.Entities/1.0.0": {
       "type": "project",
-      "path": "../Acciunting.Entities/Acciunting.Entities/Acciunting.Entities.csproj",
-      "msbuildProject": "../Acciunting.Entities/Acciunting.Entities/Acciunting.Entities.csproj"
+      "path": "../Acciunting.Entities/Acciunting.Entities/Accounting.Entities.csproj",
+      "msbuildProject": "../Acciunting.Entities/Acciunting.Entities/Accounting.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Acciunting.Entities >= 1.0.0",
+      "Accounting.Entities >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Console >= 7.0.0"
@@ -869,8 +869,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Acciunting.Entities.csproj": {
-              "projectPath": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Acciunting.Entities.csproj"
+            "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Accounting.Entities.csproj": {
+              "projectPath": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Accounting.Entities.csproj"
             }
           }
         }

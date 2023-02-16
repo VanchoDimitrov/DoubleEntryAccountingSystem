@@ -4,12 +4,12 @@
     "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Accounting.Client\\Accounting.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Acciunting.Entities.csproj": {
+    "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Accounting.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Acciunting.Entities.csproj",
-        "projectName": "Acciunting.Entities",
-        "projectPath": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Acciunting.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Accounting.Entities.csproj",
+        "projectName": "Accounting.Entities",
+        "projectPath": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Accounting.Entities.csproj",
         "packagesPath": "C:\\Users\\vanch\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\obj\\",
         "projectStyle": "PackageReference",
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Acciunting.Entities.csproj": {
-                "projectPath": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Acciunting.Entities.csproj"
+              "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Accounting.Entities.csproj": {
+                "projectPath": "C:\\Users\\vanch\\source\\repos\\DoubleEntryAccountingSystem\\Acciunting.Entities\\Acciunting.Entities\\Accounting.Entities.csproj"
               }
             }
           }

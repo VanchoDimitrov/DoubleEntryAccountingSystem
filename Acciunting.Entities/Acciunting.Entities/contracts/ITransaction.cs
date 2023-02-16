@@ -3,8 +3,8 @@
     public interface ITransaction
     {
         decimal Amount { get; }
-        Account CreditAccount { get; }
-        Account DebitAccount { get; }
+        IAccount CreditAccount { get; }
+        IAccount DebitAccount { get; }
         string Description { get; }
     }
 }

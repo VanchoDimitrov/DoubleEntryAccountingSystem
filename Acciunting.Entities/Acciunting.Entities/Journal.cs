@@ -1,22 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Acciunting.Entities.contracts;
+﻿using Acciunting.Entities.contracts;
 
 namespace Acciunting.Entities
 {
     public class Journal : IJournal
     {
         public List<Transaction> Transactions { get; private set; }
-
+        
         public Journal()
         {
             Transactions = new List<Transaction>();
         }
 
-        public void RecordTransaction(Account debitAccount, Account creditAccount, decimal amount, string description)
+        public void RecordTransaction(IAccount debitAccount, IAccount creditAccount, decimal amount, string description)
         {
             if (description == null || description == string.Empty)
                 throw new ArgumentException("The description is empty.");
