@@ -28,3 +28,6 @@ Accounting principals follow the following formula <br>
  > Cash Flow <br>
   
 If the above is known it is very easy to develop an accounting double-entry software.<br>
+
+# Changes
+16.02.2023 DI - dependency injection integration.
